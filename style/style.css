@@ -215,3 +215,60 @@
   font-weight: 700;
   color: #d9dbe1;
 }
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    background-position: center top;
+    text-align: center;
+    gap: 10px;
+  }
+  .banner-content {
+    margin: 10px;
+  }
+  /* .banner-img {
+    max-width: 100%;
+    margin-left: 0px;
+  } */
+  .sponsor-img {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    justify-items: center;
+  }
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
+    place-items: center;
+  }
+  .features-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  /* .features-img {
+    width: 100%
+  } */
+  .footer-container {
+    background-color: #0a0826;
+  }
+  .footer-content {
+    color: white;
+    padding: 50px;
+  }
+  .footer-content h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .features-content p {
+    font-size: 0.1rem;
+    font-weight: 700;
+    color: #d9dbe1;
+  }
+}
